@@ -172,11 +172,16 @@ def create_app(
         lifespan=lifespan,
     )
 
+    async def refresh_metadata() -> None:
+        if pool is not None:
+            await registry.reload_metadata(pool)  # type: ignore[arg-type]
+
     # ------------------------------------------------------------------
     # Health
     # ------------------------------------------------------------------
     @app.get("/v1/health")
     async def health() -> JSONResponse:
+        await refresh_metadata()
         return JSONResponse(
             {
                 "status": "ok",
@@ -190,6 +195,7 @@ def create_app(
     # ------------------------------------------------------------------
     @app.get("/v1/conditions")
     async def list_conditions() -> list[ConditionView]:
+        await refresh_metadata()
         return [_condition_to_view(c) for c in registry.list()]
 
     @app.post(
