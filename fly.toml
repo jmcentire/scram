@@ -18,6 +18,9 @@ primary_region = "iad"
 [build]
   dockerfile = "Dockerfile"
 
+[deploy]
+  release_command = "scram migrate"
+
 [env]
   SCRAM_HTTP_PORT = "8400"
   SCRAM_HTTP_HOST = "0.0.0.0"
