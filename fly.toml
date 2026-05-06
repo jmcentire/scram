@@ -1,0 +1,50 @@
+# scram fly.toml — emergency kill-switch service.
+#
+# Deploy via:  fly deploy -a scram
+# Migrations:  fly ssh console -a scram -C "scram migrate"
+#
+# Required secrets (set with `fly secrets set ... -a scram`):
+# - DATABASE_URL          Postgres DSN (kill_conditions + kill_fires schema)
+# - SCRAM_API_TOKEN       Bearer token for /v1/conditions, /v1/fire, DELETE
+#
+# Optional:
+# - SCRAM_EVAL_INTERVAL_S        Eval loop tick (default 5s)
+# - SCRAM_WITNESS_AUTO_APPROVE   Break-glass two-person override (NOT for prod)
+# - SCRAM_LOG_LEVEL              INFO | DEBUG | WARNING
+
+app = "scram"
+primary_region = "iad"
+
+[build]
+  dockerfile = "Dockerfile"
+
+[env]
+  SCRAM_HTTP_PORT = "8400"
+  SCRAM_HTTP_HOST = "0.0.0.0"
+
+[http_service]
+  internal_port = 8400
+  force_https = true
+  auto_stop_machines = false
+  auto_start_machines = true
+  min_machines_running = 1
+  processes = ["app"]
+
+  [[http_service.checks]]
+    grace_period = "10s"
+    interval = "15s"
+    method = "get"
+    path = "/v1/health"
+    protocol = "http"
+    timeout = "2s"
+
+[[vm]]
+  cpu_kind = "shared"
+  cpus = 1
+  memory_mb = 256
+
+# Restart policy: scram should restart on crash. There is no "do not
+# restart" exit code from scram itself; that's a Reeve/Baton concern.
+[[restart]]
+  policy = "on-failure"
+  retries = 5

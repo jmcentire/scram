@@ -1,0 +1,66 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stack-scram"
+version = "0.1.0"
+description = "scram — emergency kill-switch service. Predicate registry + periodic evaluator + action dispatcher with two-person rule and out-of-band readonly override."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [
+    { name = "Jeremy McEntire", email = "jandrewmcentire@gmail.com" },
+]
+keywords = ["kill-switch", "safety", "operations", "exemplar-stack"]
+dependencies = [
+    "fastapi>=0.110",
+    "uvicorn[standard]>=0.27",
+    "asyncpg>=0.29",
+    "pydantic>=2.5",
+    "python-ulid>=2.7",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8",
+    "pytest-asyncio>=0.23",
+    "httpx>=0.27",
+    "ruff>=0.5",
+]
+
+[project.scripts]
+scram = "scram.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/jmcentire/scram"
+Repository = "https://github.com/jmcentire/scram"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+scram = ["../../migrations/*.sql"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+filterwarnings = [
+    "error",
+    "ignore::DeprecationWarning",
+    "ignore::PendingDeprecationWarning",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "N", "UP", "B", "RUF"]
+ignore = [
+    # Allow asserts in tests; prefer expressive code.
+    "B011",
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**/*.py" = ["E501"]
