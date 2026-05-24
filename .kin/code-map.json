@@ -1,0 +1,643 @@
+{
+  "version": "1.0.0",
+  "project": {
+    "name": "scram",
+    "description": "Code map exported from Kindex for scram.",
+    "languages": [
+      "Python"
+    ],
+    "frameworks": [],
+    "analyzedAt": "2026-05-24T15:03:21",
+    "gitCommitHash": "2438d64d748e6c98ca1b7fa80e2a97a57305951e"
+  },
+  "nodes": [
+    {
+      "id": "code-mod-scram-1608c47daa4b",
+      "type": "file",
+      "name": "src/scram/types.py",
+      "filePath": "src/scram/types.py",
+      "summary": "Language: Python | Path: src/scram/types.py | ~123 lines ## Classes - KillAction",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "complexity": 4,
+      "languageNotes": {
+        "language": "Python",
+        "kindexType": "artifact",
+        "toolTier": "C"
+      }
+    },
+    {
+      "id": "code-mod-scram-01681f5067cf",
+      "type": "file",
+      "name": "src/scram/api.py",
+      "filePath": "src/scram/api.py",
+      "summary": "Language: Python | Path: src/scram/api.py | ~323 lines ## Classes - ActionPayload(BaseModel)",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "complexity": 8,
+      "languageNotes": {
+        "language": "Python",
+        "kindexType": "artifact",
+        "toolTier": "C"
+      }
+    },
+    {
+      "id": "code-mod-scram-c485427b851f",
+      "type": "file",
+      "name": "src/scram/evaluator.py",
+      "filePath": "src/scram/evaluator.py",
+      "summary": "Language: Python | Path: src/scram/evaluator.py | ~344 lines ## Classes - Evaluator",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "complexity": 5,
+      "languageNotes": {
+        "language": "Python",
+        "kindexType": "artifact",
+        "toolTier": "C"
+      }
+    },
+    {
+      "id": "code-mod-scram-990ceaddcff1",
+      "type": "file",
+      "name": "src/scram/two_person.py",
+      "filePath": "src/scram/two_person.py",
+      "summary": "Language: Python | Path: src/scram/two_person.py | ~143 lines ## Classes - Decision",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "complexity": 4,
+      "languageNotes": {
+        "language": "Python",
+        "kindexType": "artifact",
+        "toolTier": "C"
+      }
+    },
+    {
+      "id": "code-mod-scram-f161722a5185",
+      "type": "file",
+      "name": "src/scram/dispatch.py",
+      "filePath": "src/scram/dispatch.py",
+      "summary": "Language: Python | Path: src/scram/dispatch.py | ~196 lines ## Classes - DispatchRouter",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "complexity": 8,
+      "languageNotes": {
+        "language": "Python",
+        "kindexType": "artifact",
+        "toolTier": "C"
+      }
+    },
+    {
+      "id": "code-mod-scram-8cb2cb488cd6",
+      "type": "file",
+      "name": "src/scram/registry.py",
+      "filePath": "src/scram/registry.py",
+      "summary": "Language: Python | Path: src/scram/registry.py | ~175 lines ## Classes - Registry",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "complexity": 3,
+      "languageNotes": {
+        "language": "Python",
+        "kindexType": "artifact",
+        "toolTier": "C"
+      }
+    },
+    {
+      "id": "code-mod-scram-fd025529e5ed",
+      "type": "file",
+      "name": "src/scram/force_readonly.py",
+      "filePath": "src/scram/force_readonly.py",
+      "summary": "Language: Python | Path: src/scram/force_readonly.py | ~59 lines ## Functions - is_force_readonly_enabled() -> bool",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "complexity": 2,
+      "languageNotes": {
+        "language": "Python",
+        "kindexType": "artifact",
+        "toolTier": "C"
+      }
+    },
+    {
+      "id": "code-mod-scram-c39099b5b627",
+      "type": "file",
+      "name": "src/scram/__init__.py",
+      "filePath": "src/scram/__init__.py",
+      "summary": "Language: Python | Path: src/scram/__init__.py | ~29 lines",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "complexity": 1,
+      "languageNotes": {
+        "language": "Python",
+        "kindexType": "artifact",
+        "toolTier": "C"
+      }
+    },
+    {
+      "id": "code-mod-scram-9173e921307d",
+      "type": "file",
+      "name": "src/scram/reeve_conditions.py",
+      "filePath": "src/scram/reeve_conditions.py",
+      "summary": "Language: Python | Path: src/scram/reeve_conditions.py | ~103 lines ## Functions - reeve_kill_conditions(*, registered_by: str = \"reeve\") -> list[KillCondition]",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "complexity": 2,
+      "languageNotes": {
+        "language": "Python",
+        "kindexType": "artifact",
+        "toolTier": "C"
+      }
+    },
+    {
+      "id": "code-mod-scram-e1594d20cc9d",
+      "type": "file",
+      "name": "src/scram/cli.py",
+      "filePath": "src/scram/cli.py",
+      "summary": "Language: Python | Path: src/scram/cli.py | ~217 lines ## Functions - main(argv: list[str] | None = None) -> int",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "complexity": 8,
+      "languageNotes": {
+        "language": "Python",
+        "kindexType": "artifact",
+        "toolTier": "C"
+      }
+    },
+    {
+      "id": "code-sym-scram-3ae5ba1517e2",
+      "type": "class",
+      "name": "WitnessClient",
+      "filePath": "src/scram/two_person.py",
+      "summary": "class WitnessClient(Protocol) (src/scram/two_person.py:58) ## Methods - ask(self, decision: Decision) -> tuple[TwoPersonOutcome,str|None]",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "complexity": 1,
+      "languageNotes": {
+        "language": "Python",
+        "kindexType": "concept",
+        "toolTier": ""
+      }
+    },
+    {
+      "id": "code-sym-scram-00cc18cfefb8",
+      "type": "class",
+      "name": "DispatchRouter",
+      "filePath": "src/scram/dispatch.py",
+      "summary": "class DispatchRouter (src/scram/dispatch.py:126) ## Methods - dispatch( self, condition: KillCondition, reason: str ) -> TriggerResult",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "complexity": 2,
+      "languageNotes": {
+        "language": "Python",
+        "kindexType": "concept",
+        "toolTier": ""
+      }
+    },
+    {
+      "id": "code-sym-scram-fcebe67165df",
+      "type": "class",
+      "name": "Registry",
+      "filePath": "src/scram/registry.py",
+      "summary": "class Registry (src/scram/registry.py:25) ## Methods - auto_fire_conditions(self) -> list[KillCondition]",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "complexity": 8,
+      "languageNotes": {
+        "language": "Python",
+        "kindexType": "concept",
+        "toolTier": ""
+      }
+    },
+    {
+      "id": "code-sym-scram-a2d9ea9fe926",
+      "type": "class",
+      "name": "Evaluator",
+      "filePath": "src/scram/evaluator.py",
+      "summary": "class Evaluator (src/scram/evaluator.py:161) ## Methods - evaluate_once(self) -> list[TriggerResult]",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "complexity": 3,
+      "languageNotes": {
+        "language": "Python",
+        "kindexType": "concept",
+        "toolTier": ""
+      }
+    },
+    {
+      "id": "code-sym-scram-55d41b14e1f6",
+      "type": "class",
+      "name": "Decision",
+      "filePath": "src/scram/two_person.py",
+      "summary": "class Decision (src/scram/two_person.py:41)",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "complexity": 1,
+      "languageNotes": {
+        "language": "Python",
+        "kindexType": "concept",
+        "toolTier": ""
+      }
+    },
+    {
+      "id": "code-sym-scram-14a2b0b4b4ab",
+      "type": "class",
+      "name": "StubWitnessClient",
+      "filePath": "src/scram/two_person.py",
+      "summary": "class StubWitnessClient (src/scram/two_person.py:72) ## Methods - ask(self, decision: Decision) -> tuple[TwoPersonOutcome,str|None]",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "complexity": 1,
+      "languageNotes": {
+        "language": "Python",
+        "kindexType": "concept",
+        "toolTier": ""
+      }
+    },
+    {
+      "id": "code-sym-scram-ada104c7eccb",
+      "type": "class",
+      "name": "ConditionPayload",
+      "filePath": "src/scram/api.py",
+      "summary": "class ConditionPayload(BaseModel) (src/scram/api.py:51)",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "complexity": 1,
+      "languageNotes": {
+        "language": "Python",
+        "kindexType": "concept",
+        "toolTier": ""
+      }
+    },
+    {
+      "id": "code-sym-scram-dfff3c852644",
+      "type": "class",
+      "name": "ConditionView",
+      "filePath": "src/scram/api.py",
+      "summary": "class ConditionView(BaseModel) (src/scram/api.py:79)",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "complexity": 1,
+      "languageNotes": {
+        "language": "Python",
+        "kindexType": "concept",
+        "toolTier": ""
+      }
+    },
+    {
+      "id": "code-sym-scram-8bd8205206d1",
+      "type": "class",
+      "name": "FirePayload",
+      "filePath": "src/scram/api.py",
+      "summary": "class FirePayload(BaseModel) (src/scram/api.py:71)",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "complexity": 1,
+      "languageNotes": {
+        "language": "Python",
+        "kindexType": "concept",
+        "toolTier": ""
+      }
+    },
+    {
+      "id": "code-sym-scram-8bac61ad00ef",
+      "type": "class",
+      "name": "FireView",
+      "filePath": "src/scram/api.py",
+      "summary": "class FireView(BaseModel) (src/scram/api.py:90)",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "complexity": 1,
+      "languageNotes": {
+        "language": "Python",
+        "kindexType": "concept",
+        "toolTier": ""
+      }
+    },
+    {
+      "id": "code-sym-scram-f04a9618521b",
+      "type": "class",
+      "name": "KillFire",
+      "filePath": "src/scram/types.py",
+      "summary": "class KillFire (src/scram/types.py:80)",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "complexity": 1,
+      "languageNotes": {
+        "language": "Python",
+        "kindexType": "concept",
+        "toolTier": ""
+      }
+    },
+    {
+      "id": "code-sym-scram-bd5d08302f0a",
+      "type": "class",
+      "name": "TriggerResult",
+      "filePath": "src/scram/types.py",
+      "summary": "class TriggerResult (src/scram/types.py:103)",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "complexity": 1,
+      "languageNotes": {
+        "language": "Python",
+        "kindexType": "concept",
+        "toolTier": ""
+      }
+    },
+    {
+      "id": "code-sym-scram-b65ae1d90a22",
+      "type": "class",
+      "name": "ActionPayload",
+      "filePath": "src/scram/api.py",
+      "summary": "class ActionPayload(BaseModel) (src/scram/api.py:45)",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "complexity": 1,
+      "languageNotes": {
+        "language": "Python",
+        "kindexType": "concept",
+        "toolTier": ""
+      }
+    },
+    {
+      "id": "code-sym-scram-e35a6f924b21",
+      "type": "class",
+      "name": "KillCondition",
+      "filePath": "src/scram/types.py",
+      "summary": "class KillCondition (src/scram/types.py:46) ## Methods - to_row(self) -> dict[str,Any]",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "complexity": 1,
+      "languageNotes": {
+        "language": "Python",
+        "kindexType": "concept",
+        "toolTier": ""
+      }
+    },
+    {
+      "id": "code-sym-scram-1e247d79b1e8",
+      "type": "class",
+      "name": "KillAction",
+      "filePath": "src/scram/types.py",
+      "summary": "class KillAction (src/scram/types.py:30) ## Methods - to_jsonable(self) -> dict[str,Any]",
+      "tags": [
+        "code",
+        "python"
+      ],
+      "complexity": 1,
+      "languageNotes": {
+        "language": "Python",
+        "kindexType": "concept",
+        "toolTier": ""
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "code-sym-scram-3ae5ba1517e2",
+      "target": "code-mod-scram-990ceaddcff1",
+      "type": "contains",
+      "direction": "outbound",
+      "weight": 0.6
+    },
+    {
+      "source": "code-sym-scram-00cc18cfefb8",
+      "target": "code-mod-scram-f161722a5185",
+      "type": "contains",
+      "direction": "outbound",
+      "weight": 0.6
+    },
+    {
+      "source": "code-sym-scram-fcebe67165df",
+      "target": "code-mod-scram-8cb2cb488cd6",
+      "type": "contains",
+      "direction": "outbound",
+      "weight": 0.6
+    },
+    {
+      "source": "code-sym-scram-a2d9ea9fe926",
+      "target": "code-mod-scram-c485427b851f",
+      "type": "contains",
+      "direction": "outbound",
+      "weight": 0.6
+    },
+    {
+      "source": "code-sym-scram-55d41b14e1f6",
+      "target": "code-mod-scram-990ceaddcff1",
+      "type": "contains",
+      "direction": "outbound",
+      "weight": 0.6
+    },
+    {
+      "source": "code-sym-scram-14a2b0b4b4ab",
+      "target": "code-mod-scram-990ceaddcff1",
+      "type": "contains",
+      "direction": "outbound",
+      "weight": 0.6
+    },
+    {
+      "source": "code-sym-scram-ada104c7eccb",
+      "target": "code-mod-scram-01681f5067cf",
+      "type": "contains",
+      "direction": "outbound",
+      "weight": 0.6
+    },
+    {
+      "source": "code-sym-scram-dfff3c852644",
+      "target": "code-mod-scram-01681f5067cf",
+      "type": "contains",
+      "direction": "outbound",
+      "weight": 0.6
+    },
+    {
+      "source": "code-sym-scram-8bd8205206d1",
+      "target": "code-mod-scram-01681f5067cf",
+      "type": "contains",
+      "direction": "outbound",
+      "weight": 0.6
+    },
+    {
+      "source": "code-sym-scram-8bac61ad00ef",
+      "target": "code-mod-scram-01681f5067cf",
+      "type": "contains",
+      "direction": "outbound",
+      "weight": 0.6
+    },
+    {
+      "source": "code-sym-scram-f04a9618521b",
+      "target": "code-mod-scram-1608c47daa4b",
+      "type": "contains",
+      "direction": "outbound",
+      "weight": 0.6
+    },
+    {
+      "source": "code-sym-scram-bd5d08302f0a",
+      "target": "code-mod-scram-1608c47daa4b",
+      "type": "contains",
+      "direction": "outbound",
+      "weight": 0.6
+    },
+    {
+      "source": "code-sym-scram-b65ae1d90a22",
+      "target": "code-mod-scram-01681f5067cf",
+      "type": "contains",
+      "direction": "outbound",
+      "weight": 0.6
+    },
+    {
+      "source": "code-sym-scram-e35a6f924b21",
+      "target": "code-mod-scram-1608c47daa4b",
+      "type": "contains",
+      "direction": "outbound",
+      "weight": 0.6
+    },
+    {
+      "source": "code-sym-scram-1e247d79b1e8",
+      "target": "code-mod-scram-1608c47daa4b",
+      "type": "contains",
+      "direction": "outbound",
+      "weight": 0.6
+    }
+  ],
+  "layers": [
+    {
+      "id": "api",
+      "name": "Api",
+      "description": "Kindex-inferred api layer.",
+      "nodeIds": [
+        "code-mod-scram-01681f5067cf"
+      ]
+    },
+    {
+      "id": "core",
+      "name": "Core",
+      "description": "Kindex-inferred core layer.",
+      "nodeIds": [
+        "code-mod-scram-1608c47daa4b",
+        "code-mod-scram-8cb2cb488cd6",
+        "code-mod-scram-9173e921307d",
+        "code-mod-scram-990ceaddcff1",
+        "code-mod-scram-c39099b5b627",
+        "code-mod-scram-c485427b851f",
+        "code-mod-scram-e1594d20cc9d",
+        "code-mod-scram-f161722a5185",
+        "code-mod-scram-fd025529e5ed"
+      ]
+    },
+    {
+      "id": "domain",
+      "name": "Domain",
+      "description": "Kindex-inferred domain layer.",
+      "nodeIds": [
+        "code-sym-scram-00cc18cfefb8",
+        "code-sym-scram-14a2b0b4b4ab",
+        "code-sym-scram-1e247d79b1e8",
+        "code-sym-scram-3ae5ba1517e2",
+        "code-sym-scram-55d41b14e1f6",
+        "code-sym-scram-8bac61ad00ef",
+        "code-sym-scram-8bd8205206d1",
+        "code-sym-scram-a2d9ea9fe926",
+        "code-sym-scram-ada104c7eccb",
+        "code-sym-scram-b65ae1d90a22",
+        "code-sym-scram-bd5d08302f0a",
+        "code-sym-scram-dfff3c852644",
+        "code-sym-scram-e35a6f924b21",
+        "code-sym-scram-f04a9618521b",
+        "code-sym-scram-fcebe67165df"
+      ]
+    }
+  ],
+  "tour": [
+    {
+      "order": 1,
+      "title": "Api",
+      "description": "Review 1 node(s) in the Api layer.",
+      "nodeIds": [
+        "code-mod-scram-01681f5067cf"
+      ]
+    },
+    {
+      "order": 2,
+      "title": "Core",
+      "description": "Review 9 node(s) in the Core layer.",
+      "nodeIds": [
+        "code-mod-scram-1608c47daa4b",
+        "code-mod-scram-8cb2cb488cd6",
+        "code-mod-scram-9173e921307d",
+        "code-mod-scram-990ceaddcff1",
+        "code-mod-scram-c39099b5b627",
+        "code-mod-scram-c485427b851f",
+        "code-mod-scram-e1594d20cc9d",
+        "code-mod-scram-f161722a5185",
+        "code-mod-scram-fd025529e5ed"
+      ]
+    },
+    {
+      "order": 3,
+      "title": "Domain",
+      "description": "Review 15 node(s) in the Domain layer.",
+      "nodeIds": [
+        "code-sym-scram-00cc18cfefb8",
+        "code-sym-scram-14a2b0b4b4ab",
+        "code-sym-scram-1e247d79b1e8",
+        "code-sym-scram-3ae5ba1517e2",
+        "code-sym-scram-55d41b14e1f6",
+        "code-sym-scram-8bac61ad00ef",
+        "code-sym-scram-8bd8205206d1",
+        "code-sym-scram-a2d9ea9fe926",
+        "code-sym-scram-ada104c7eccb",
+        "code-sym-scram-b65ae1d90a22",
+        "code-sym-scram-bd5d08302f0a",
+        "code-sym-scram-dfff3c852644",
+        "code-sym-scram-e35a6f924b21",
+        "code-sym-scram-f04a9618521b",
+        "code-sym-scram-fcebe67165df"
+      ]
+    }
+  ]
+}
