@@ -1,0 +1,287 @@
+{
+  "domains": [
+    "code",
+    "python"
+  ],
+  "node_count": 25,
+  "nodes": [
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-mod-scram-01681f5067cf",
+      "title": "src/scram/api.py",
+      "type": "artifact",
+      "updated_at": "2026-05-30T14:50:01",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-mod-scram-1608c47daa4b",
+      "title": "src/scram/types.py",
+      "type": "artifact",
+      "updated_at": "2026-05-30T14:50:01",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-mod-scram-8cb2cb488cd6",
+      "title": "src/scram/registry.py",
+      "type": "artifact",
+      "updated_at": "2026-05-30T14:50:01",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-mod-scram-9173e921307d",
+      "title": "src/scram/reeve_conditions.py",
+      "type": "artifact",
+      "updated_at": "2026-05-30T14:50:01",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-mod-scram-990ceaddcff1",
+      "title": "src/scram/two_person.py",
+      "type": "artifact",
+      "updated_at": "2026-05-30T14:50:01",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-mod-scram-c39099b5b627",
+      "title": "src/scram/__init__.py",
+      "type": "artifact",
+      "updated_at": "2026-05-30T14:50:01",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-mod-scram-c485427b851f",
+      "title": "src/scram/evaluator.py",
+      "type": "artifact",
+      "updated_at": "2026-05-30T14:50:01",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-mod-scram-e1594d20cc9d",
+      "title": "src/scram/cli.py",
+      "type": "artifact",
+      "updated_at": "2026-05-30T14:50:02",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-mod-scram-f161722a5185",
+      "title": "src/scram/dispatch.py",
+      "type": "artifact",
+      "updated_at": "2026-05-30T14:50:01",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-mod-scram-fd025529e5ed",
+      "title": "src/scram/force_readonly.py",
+      "type": "artifact",
+      "updated_at": "2026-05-30T14:50:01",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-sym-scram-00cc18cfefb8",
+      "title": "DispatchRouter",
+      "type": "concept",
+      "updated_at": "2026-05-30T14:50:01",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-sym-scram-14a2b0b4b4ab",
+      "title": "StubWitnessClient",
+      "type": "concept",
+      "updated_at": "2026-05-30T14:50:01",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-sym-scram-1e247d79b1e8",
+      "title": "KillAction",
+      "type": "concept",
+      "updated_at": "2026-05-30T14:50:01",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-sym-scram-3ae5ba1517e2",
+      "title": "WitnessClient",
+      "type": "concept",
+      "updated_at": "2026-05-30T14:50:01",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-sym-scram-55d41b14e1f6",
+      "title": "Decision",
+      "type": "concept",
+      "updated_at": "2026-05-30T14:50:01",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-sym-scram-8bac61ad00ef",
+      "title": "FireView",
+      "type": "concept",
+      "updated_at": "2026-05-30T14:50:01",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-sym-scram-8bd8205206d1",
+      "title": "FirePayload",
+      "type": "concept",
+      "updated_at": "2026-05-30T14:50:01",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-sym-scram-a2d9ea9fe926",
+      "title": "Evaluator",
+      "type": "concept",
+      "updated_at": "2026-05-30T14:50:01",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-sym-scram-ada104c7eccb",
+      "title": "ConditionPayload",
+      "type": "concept",
+      "updated_at": "2026-05-30T14:50:01",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-sym-scram-b65ae1d90a22",
+      "title": "ActionPayload",
+      "type": "concept",
+      "updated_at": "2026-05-30T14:50:01",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-sym-scram-bd5d08302f0a",
+      "title": "TriggerResult",
+      "type": "concept",
+      "updated_at": "2026-05-30T14:50:01",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-sym-scram-dfff3c852644",
+      "title": "ConditionView",
+      "type": "concept",
+      "updated_at": "2026-05-30T14:50:01",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-sym-scram-e35a6f924b21",
+      "title": "KillCondition",
+      "type": "concept",
+      "updated_at": "2026-05-30T14:50:01",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-sym-scram-f04a9618521b",
+      "title": "KillFire",
+      "type": "concept",
+      "updated_at": "2026-05-30T14:50:01",
+      "weight": 0.5
+    },
+    {
+      "domains": [
+        "code",
+        "python"
+      ],
+      "id": "code-sym-scram-fcebe67165df",
+      "title": "Registry",
+      "type": "concept",
+      "updated_at": "2026-05-30T14:50:01",
+      "weight": 0.5
+    }
+  ],
+  "repo": "scram",
+  "source_updated_at": "2026-05-30T14:50:02",
+  "version": 1
+}
